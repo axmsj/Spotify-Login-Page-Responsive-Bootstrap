@@ -1,0 +1,80 @@
+.hrrule {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.buttons-section button {
+  width: 500px;
+  font-weight: bold;
+}
+
+.buttons-section button:hover {
+  border: 1px solid black;
+}
+
+/* @media (min-width: 300px) {
+  .buttons-section button {
+    width: 300px;
+  }
+}
+
+@media (min width: 1300px) {
+  .buttons-section button {
+    width: 400px;
+    font-weight: bold;
+  }
+} */
+
+.login-form label {
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.login-form a {
+  color: black;
+}
+
+.forgotpassword button {
+  margin: 40px 40px;
+}
+
+.loginbtn {
+  font-weight: bold;
+  color: black;
+  background-color: #1db954;
+  padding: 10px 30px;
+  border-radius: 16px;
+  border: 1px transparent;
+  cursor: pointer;
+}
+
+.loginbtn:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  .buttons-section button,
+  .login-form input {
+    width: 380px;
+    /* font-weight: bold; */
+  }
+}
+
+@media (max-width: 400px) {
+  .buttons-section button,
+  .login-form input {
+    width: 320px;
+    /* font-weight: bold; */
+  }
+}
+
+@media (max-width: 300px) {
+  .buttons-section button,
+  .login-form input {
+    width: 300px;
+  }
+}
