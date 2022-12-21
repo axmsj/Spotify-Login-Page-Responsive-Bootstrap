@@ -1,3 +1,3 @@
 # Spotify-Login-Page-Responsive-Bootstrap
-https://lucent-seahorse-aa24a8.netlify.app/
+https://kaleidoscopic-profiterole-eae72d.netlify.app
 Created this simple spotify login page clone with html, css, bootstrap , fontawesome.
