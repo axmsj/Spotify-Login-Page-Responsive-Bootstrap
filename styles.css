@@ -52,13 +52,19 @@
   cursor: pointer;
 }
 
+.signup button {
+  width: 500px;
+  font-weight: bold;
+}
+
 .loginbtn:hover {
   transform: scale(1.1);
 }
 
 @media (max-width: 500px) {
   .buttons-section button,
-  .login-form input {
+  .login-form input,
+  .signup button {
     width: 380px;
     /* font-weight: bold; */
   }
@@ -66,7 +72,8 @@
 
 @media (max-width: 400px) {
   .buttons-section button,
-  .login-form input {
+  .login-form input,
+  .signup button {
     width: 320px;
     /* font-weight: bold; */
   }
@@ -74,7 +81,8 @@
 
 @media (max-width: 300px) {
   .buttons-section button,
-  .login-form input {
+  .login-form input,
+  .signup button {
     width: 300px;
   }
 }
